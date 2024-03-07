@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+background-color: rgb(234 240 255);
+
+}
+ /* header section */
+ header{ 
+   
+    margin: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+ }
+ li{
+    list-style: none;
+ }
+.navbar{
+    display: flex;
+    min-width: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-branding{
+   
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.nav-branding:hover{
+    font-size: 1.9rem;
+    color:blue;
+}
+.nav-link{
+   
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.10s ease;
+
+}
+.nav-link:hover{
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-button{
+    background-color: orange;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 10px  0 30px rgb(179, 148, 127);
+    width: 100px;
+}
+.nav-button:hover{
+      height: 45px;
+      font-weight: 700;
+      border: 1px;
+}
+/* Hero section */
+.hero-main{
+    width: 100%;
+    height: 480px;
+   
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    
+}
+.hero-hadeline{
+  font-weight: 800;
+  font-size: 48px;
+
+}
+.hero-imge{
+    height: 409px;
+ 
+}
+.item{
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    justify-content: space-around;
+}
+.item-1{
+    background-color: #000;
+    height: 200px;
+    width: 100px;
+}
+/* my service */
+.services{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+}
+.service-paragap{
+  font-weight: 500;
+}
+.service-card{
+    margin-top: 2rem;
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.card-link{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
